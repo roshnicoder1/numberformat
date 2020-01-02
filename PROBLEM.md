@@ -1,17 +1,17 @@
-## Problem Statement: Find the number format of given a 3 digits positive number. Let us use the letter H to mean "hundred", the letter T to mean "ten" and “1, 2, . . . n” to represent the ones digit n (<10) in number format. ##
+## Problem Statement: Find the number format of a given 3 digits positive number. Let us use the letter H to mean "hundred", the letter T to mean "ten" and “1, 2, . . . n” to represent the ones digit n (<10) in number format. ##
 
 **Given a 3 digits positive number, find the number format of given a 3 digits positive number **
 
 **This exercise should be completed by writing unit test cases. Create the following classes under the package com.stackroute.basics inside test folder:**
 
 
-    +NumberFormatTests
+    NumberFormatTests
         -Should check findNumberFormat method for three digit positive number
         -Should check findNumberFormat method for three digit positive number ending with zero 
         -Should check findNumberFormat method for three digit positive number with zero in the middle
         -Should check findNumberFormat method does not return null
 ------------------------------------------------------
-    +NumberFormatAppTests
+    NumberFormatAppTests
         -Should check inputValidator method prints error message "Please give proper positive number not negative number" if input is negative number 
         -Should check inputValidator method prints error message "Please give proper positive number not zero" if input is zero
         -Should check inputValidator method prints error message "Please give proper positive number less than 1000 and greater than 99" if input is greater than 999
