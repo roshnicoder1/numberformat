@@ -9,9 +9,9 @@ Refer the problem.md file for problem description.
 
 2. **CLONE** the forked repository, containing the boilerplate in your local machine
      
-3. Navigate to exercise-tc-loops-numberformat-solution folder
+3. Navigate to exercise-tc-loops-numberformat folder
 
-    `cd exercise-tc-loops-numberformat-solution`
+    `cd exercise-tc-loops-numberformat`
 
 4. Check the status of your repository
      
