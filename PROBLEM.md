@@ -2,7 +2,7 @@
 
 **Given a 3 digits positive number, find the number format of given a 3 digits positive number **
 
-**This exercise should be completed by writing unit test cases. Create the following classes under the package com.stackroute.basics inside test folder:**
+**This exercise should be completed by writing unit test cases. Create the following classes under the package com.stackroute.unittesting inside test folder:**
 
 
     NumberFormatTests

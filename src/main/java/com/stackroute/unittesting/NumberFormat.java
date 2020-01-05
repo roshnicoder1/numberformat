@@ -1,4 +1,4 @@
-package com.stackroute.basics;
+package com.stackroute.unittesting;
 
 import java.util.Scanner;
 
