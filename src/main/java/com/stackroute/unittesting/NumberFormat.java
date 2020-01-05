@@ -10,22 +10,23 @@ public class NumberFormat {
     //write logic to get inputs from user and send inputs to findLongestSequence
     public void inputValidator() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the Number:");
+        outputPrinter("Enter the Number:");
         String input = scanner.nextLine();
+        scanner.close();
         if (!input.isEmpty()) {
             int number = Integer.parseInt(input);
             if (number > 99 && number < 1000)
-                System.out.println(findNumberFormat(number));
+                outputPrinter(findNumberFormat(number));
             else if (number < 0)
-                System.out.println("Please give proper positive number not negative number");
+                outputPrinter("Please give proper positive number not negative number");
             else if (number == 0)
-                System.out.println("Please give proper positive number not zero");
+                outputPrinter("Please give proper positive number not zero");
             else if (number >= 1000)
-                System.out.println("Please give proper positive number less than 1000 and greater than 99");
+                outputPrinter("Please give proper positive number less than 1000 and greater than 99");
             else if (number <= 99)
-                System.out.println("Please give proper positive number greater than 99 and less than 1000");
+                outputPrinter("Please give proper positive number greater than 99 and less than 1000");
         } else
-            System.out.println("Please give proper input but not null");
+            outputPrinter("Please give proper input but not null");
     }
 
     //write logic to find number format of given number , returns result
@@ -47,5 +48,9 @@ public class NumberFormat {
         }
 
         return result;
+    }
+
+    public void outputPrinter(Object printStatement) {
+        System.out.println(printStatement);
     }
 }
