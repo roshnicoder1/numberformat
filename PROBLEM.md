@@ -16,7 +16,7 @@
         -Should check inputValidator method prints error message "Please give proper positive number not zero" if input is zero
         -Should check inputValidator method prints error message "Please give proper positive number less than 1000 and greater than 99" if input is greater than 999
         -Should check inputValidator method prints error message "Please give proper positive number greater than 99 and less than 1000" if input less than 100 and greater than zero
-        -Should check findNumberFormat method with input and print the result
+        -Should check findNumberFormat method with input prints the result or not
 
 ## Example
     Sample Input:
