@@ -1,6 +1,6 @@
-## Problem Statement: Find the number format of a given 3 digits positive number. Let us use the letter H to mean "hundred", the letter T to mean "ten" and “1, 2, . . . n” to represent the ones digit n (<10) in number format. ##
+## Problem Statement: Find the number format of a given 3 digit positive number. Let us use the letter H to mean "hundred", the letter T to mean "ten" and “1, 2, . . . n” to represent the ones digit n (<10) in number format. ##
 
-**Given a 3 digits positive number, find the number format of given a 3 digits positive number **
+**Given a 3 digits positive number, find the number format of given a 3 digit positive number **
 
 **This exercise should be completed by writing unit test cases. Create the following classes under the package com.stackroute.unittesting inside test folder:**
 
